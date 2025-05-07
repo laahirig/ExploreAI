@@ -36,7 +36,7 @@ We followed a structured AI + ML pipeline to bring ExploreAI to life.
 - Created `content` and `metadata` fields for further processing.
 
 ### 2. **Data Chunking and Embeddings**
-- Used a `recursive_split` method to chunk the data into meaningful segments (chunk size: 1000, overlap: 200) to preserve context.
+- Used a `recursive_split` method to chunk the data into meaningful segments with chunk size: 1000 and overlap: 200 to preserve context.
 - Created vector embeddings using `AutoTokenizer` and `AutoModel`.
 
 ### 3. **Store and Query Vector Embeddings**
