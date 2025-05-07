@@ -44,8 +44,6 @@ We followed a structured AI + ML pipeline to bring ExploreAI to life.
 - To persist across sessions, we saved vector data to **Google Drive**.
 - This allows efficient offline access to embedding data.
 
-![Stored Embeddings in Google Drive](attachment:c647387d-5471-4655-8b3d-9d47d1adc4e9:image.png)
-
 ### 4. **Implementing the RAG Pipeline**
 - Connected the Qdrant client to the stored vectors.
 - Integrated **OpenRouter** to serve as the LLM backend.
